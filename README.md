@@ -4,11 +4,7 @@ A powerful, AI-driven email management system with real-time IMAP synchronizatio
 
 ## 🚀 Live Demo
 
-**URL**: https://lovable.dev/projects/7313e7b4-9259-4435-8699-503067464afe
-
-## 🎥 Demo Video
-
-[Demo Video Link - Under 5 minutes]
+**URL**: (https://reach-inbox-dusky.vercel.app/)
 
 ## ✨ Features Implemented
 
@@ -25,7 +21,7 @@ A powerful, AI-driven email management system with real-time IMAP synchronizatio
 - **Real-time search**: Instant search results as you type
 
 ### ✅ 3. AI-Based Email Categorization
-Leverages **Lovable AI** (Google Gemini 2.5 Flash) to categorize emails into:
+AI** (Google Gemini 2.5 Flash) to categorize emails into:
 - **Interested** 🎯 - Potential leads showing interest
 - **Meeting Booked** 📅 - Confirmed meetings/appointments
 - **Not Interested** ❌ - Declined proposals
@@ -47,7 +43,7 @@ Leverages **Lovable AI** (Google Gemini 2.5 Flash) to categorize emails into:
 
 ### ✅ 6. AI-Powered Suggested Replies (RAG)
 - **Vector database**: Stores product/outreach context for personalized replies
-- **RAG implementation**: Uses Retrieval-Augmented Generation with Lovable AI
+- **RAG implementation**: Uses Retrieval-Augmented Generation with  AI
 - **Context-aware**: Generates replies based on your product information and intent
 - **One-click copy**: Copy suggested replies to clipboard instantly
 - **Confidence scoring**: Shows AI confidence level for each suggestion
@@ -65,7 +61,7 @@ Leverages **Lovable AI** (Google Gemini 2.5 Flash) to categorize emails into:
                    │
                    ▼
 ┌─────────────────────────────────────────────────────┐
-│           Lovable Cloud (Supabase Backend)          │
+│            Cloud (Supabase Backend)          │
 │  - PostgreSQL database with RLS policies            │
 │  - User authentication (email/password)             │
 │  - Real-time subscriptions                          │
@@ -83,7 +79,7 @@ Leverages **Lovable AI** (Google Gemini 2.5 Flash) to categorize emails into:
                    ▼
 ┌─────────────────────────────────────────────────────┐
 │              External Integrations                   │
-│  - Lovable AI (Gemini 2.5 Flash)                   │
+│  - AI (Gemini 2.5 Flash)                   │
 │  - Slack Webhooks                                    │
 │  - Custom Webhooks (webhook.site)                   │
 │  - IMAP Servers (Gmail, Outlook, etc.)              │
@@ -118,12 +114,12 @@ Leverages **Lovable AI** (Google Gemini 2.5 Flash) to categorize emails into:
 ## 🔧 Technology Stack
 
 - **Frontend**: React, TypeScript, Tailwind CSS, shadcn/ui
-- **Backend**: Lovable Cloud (Supabase)
+- **Backend**:  Cloud (Supabase)
   - PostgreSQL database
   - Edge Functions (Deno)
   - Real-time subscriptions
   - Row-Level Security (RLS)
-- **AI**: Lovable AI Gateway
+- **AI**: AI Gateway
   - Google Gemini 2.5 Flash (categorization)
   - RAG with vector storage (reply generation)
 - **Email**: IMAP protocol with IDLE mode
@@ -161,7 +157,7 @@ docker run -d \
 
 ### Step 3: Configure Environment
 
-The project automatically connects to Lovable Cloud. No additional environment setup needed!
+The project automatically connects to  Cloud. No additional environment setup needed!
 
 ### Step 4: Run Development Server
 
@@ -190,7 +186,7 @@ Open http://localhost:8080
 
 1. Create a Slack incoming webhook
 2. Copy the webhook URL
-3. Add it to Lovable Cloud secrets:
+3. Add it to  Cloud secrets:
    - Go to Cloud → Secrets
    - Add `SLACK_WEBHOOK_URL` with your webhook URL
 
@@ -289,7 +285,7 @@ The project uses a carefully crafted design system:
 
 1. **IMAP Library**: Currently using mock data. Production needs real IMAP client (e.g., node-imap)
 2. **Elasticsearch**: Needs local Docker setup for full functionality
-3. **Rate Limits**: Lovable AI has usage limits (see pricing)
+3. **Rate Limits**:  AI has usage limits (see pricing)
 4. **Email Sending**: Reply suggestions don't send emails (copy-paste required)
 
 ## 🔮 Future Enhancements
@@ -302,27 +298,3 @@ The project uses a carefully crafted design system:
 - [ ] Bulk operations (mark all as read, delete multiple)
 - [ ] Email templates
 - [ ] Analytics dashboard
-
-## 📞 Support & Contact
-
-For questions or issues:
-- **Email**: support@reachinbox.com
-- **GitHub**: [Report an issue](https://github.com/your-repo/issues)
-- **Documentation**: https://docs.lovable.dev
-
-## 📄 License
-
-MIT License - feel free to use this project for learning and building!
-
-## 🙏 Acknowledgments
-
-- **Lovable** for the amazing platform and AI capabilities
-- **Supabase** for the powerful backend infrastructure
-- **shadcn/ui** for beautiful UI components
-- **ReachInbox** team for the assignment opportunity
-
----
-
-**Built with ❤️ using Lovable + TypeScript + React**
-
-*Assignment completed in 48 hours*
