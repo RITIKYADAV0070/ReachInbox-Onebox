@@ -1,0 +1,10 @@
+project_id = "zvslllmudcmwkzlirope"
+
+[functions.sync-imap]
+verify_jwt = false
+
+[functions.categorize-email]
+verify_jwt = false
+
+[functions.generate-reply]
+verify_jwt = true
